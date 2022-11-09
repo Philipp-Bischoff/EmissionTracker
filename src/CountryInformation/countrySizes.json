@@ -1,0 +1,1137 @@
+[
+ {
+   "FIELD1": 1,
+   "Country": "Afghanistan ",
+   "Area": 647500
+ },
+ {
+   "FIELD1": 2,
+   "Country": "Albania ",
+   "Area": 28748
+ },
+ {
+   "FIELD1": 3,
+   "Country": "Algeria ",
+   "Area": 2381740
+ },
+ {
+   "FIELD1": 4,
+   "Country": "American Samoa ",
+   "Area": 199
+ },
+ {
+   "FIELD1": 5,
+   "Country": "Andorra ",
+   "Area": 468
+ },
+ {
+   "FIELD1": 6,
+   "Country": "Angola ",
+   "Area": 1246700
+ },
+ {
+   "FIELD1": 7,
+   "Country": "Anguilla ",
+   "Area": 102
+ },
+ {
+   "FIELD1": 8,
+   "Country": "Antigua & Barbuda ",
+   "Area": 443
+ },
+ {
+   "FIELD1": 9,
+   "Country": "Argentina ",
+   "Area": 2766890
+ },
+ {
+   "FIELD1": 10,
+   "Country": "Armenia ",
+   "Area": 29800
+ },
+ {
+   "FIELD1": 11,
+   "Country": "Aruba ",
+   "Area": 193
+ },
+ {
+   "FIELD1": 12,
+   "Country": "Australia ",
+   "Area": 7686850
+ },
+ {
+   "FIELD1": 13,
+   "Country": "Austria ",
+   "Area": 83870
+ },
+ {
+   "FIELD1": 14,
+   "Country": "Azerbaijan ",
+   "Area": 86600
+ },
+ {
+   "FIELD1": 15,
+   "Country": "Bahamas, The ",
+   "Area": 13940
+ },
+ {
+   "FIELD1": 16,
+   "Country": "Bahrain ",
+   "Area": 665
+ },
+ {
+   "FIELD1": 17,
+   "Country": "Bangladesh ",
+   "Area": 144000
+ },
+ {
+   "FIELD1": 18,
+   "Country": "Barbados ",
+   "Area": 431
+ },
+ {
+   "FIELD1": 19,
+   "Country": "Belarus ",
+   "Area": 207600
+ },
+ {
+   "FIELD1": 20,
+   "Country": "Belgium ",
+   "Area": 30528
+ },
+ {
+   "FIELD1": 21,
+   "Country": "Belize ",
+   "Area": 22966
+ },
+ {
+   "FIELD1": 22,
+   "Country": "Benin ",
+   "Area": 112620
+ },
+ {
+   "FIELD1": 23,
+   "Country": "Bermuda ",
+   "Area": 53
+ },
+ {
+   "FIELD1": 24,
+   "Country": "Bhutan ",
+   "Area": 47000
+ },
+ {
+   "FIELD1": 25,
+   "Country": "Bolivia ",
+   "Area": 1098580
+ },
+ {
+   "FIELD1": 26,
+   "Country": "Bosnia & Herzegovina ",
+   "Area": 51129
+ },
+ {
+   "FIELD1": 27,
+   "Country": "Botswana ",
+   "Area": 600370
+ },
+ {
+   "FIELD1": 28,
+   "Country": "Brazil ",
+   "Area": 8511965
+ },
+ {
+   "FIELD1": 29,
+   "Country": "British Virgin Is. ",
+   "Area": 153
+ },
+ {
+   "FIELD1": 30,
+   "Country": "Brunei ",
+   "Area": 5770
+ },
+ {
+   "FIELD1": 31,
+   "Country": "Bulgaria ",
+   "Area": 110910
+ },
+ {
+   "FIELD1": 32,
+   "Country": "Burkina Faso ",
+   "Area": 274200
+ },
+ {
+   "FIELD1": 33,
+   "Country": "Burma ",
+   "Area": 678500
+ },
+ {
+   "FIELD1": 34,
+   "Country": "Burundi ",
+   "Area": 27830
+ },
+ {
+   "FIELD1": 35,
+   "Country": "Cambodia ",
+   "Area": 181040
+ },
+ {
+   "FIELD1": 36,
+   "Country": "Cameroon ",
+   "Area": 475440
+ },
+ {
+   "FIELD1": 37,
+   "Country": "Canada ",
+   "Area": 9984670
+ },
+ {
+   "FIELD1": 38,
+   "Country": "Cape Verde ",
+   "Area": 4033
+ },
+ {
+   "FIELD1": 39,
+   "Country": "Cayman Islands ",
+   "Area": 262
+ },
+ {
+   "FIELD1": 40,
+   "Country": "Central African Rep. ",
+   "Area": 622984
+ },
+ {
+   "FIELD1": 41,
+   "Country": "Chad ",
+   "Area": 1284000
+ },
+ {
+   "FIELD1": 42,
+   "Country": "Chile ",
+   "Area": 756950
+ },
+ {
+   "FIELD1": 43,
+   "Country": "China ",
+   "Area": 9596960
+ },
+ {
+   "FIELD1": 44,
+   "Country": "Colombia ",
+   "Area": 1138910
+ },
+ {
+   "FIELD1": 45,
+   "Country": "Comoros ",
+   "Area": 2170
+ },
+ {
+   "FIELD1": 46,
+   "Country": "Congo, Dem. Rep. ",
+   "Area": 2345410
+ },
+ {
+   "FIELD1": 47,
+   "Country": "Congo, Repub. of the ",
+   "Area": 342000
+ },
+ {
+   "FIELD1": 48,
+   "Country": "Cook Islands ",
+   "Area": 240
+ },
+ {
+   "FIELD1": 49,
+   "Country": "Costa Rica ",
+   "Area": 51100
+ },
+ {
+   "FIELD1": 50,
+   "Country": "Cote d'Ivoire ",
+   "Area": 322460
+ },
+ {
+   "FIELD1": 51,
+   "Country": "Croatia ",
+   "Area": 56542
+ },
+ {
+   "FIELD1": 52,
+   "Country": "Cuba ",
+   "Area": 110860
+ },
+ {
+   "FIELD1": 53,
+   "Country": "Cyprus ",
+   "Area": 9250
+ },
+ {
+   "FIELD1": 54,
+   "Country": "Czech Republic ",
+   "Area": 78866
+ },
+ {
+   "FIELD1": 55,
+   "Country": "Denmark ",
+   "Area": 43094
+ },
+ {
+   "FIELD1": 56,
+   "Country": "Djibouti ",
+   "Area": 23000
+ },
+ {
+   "FIELD1": 57,
+   "Country": "Dominica ",
+   "Area": 754
+ },
+ {
+   "FIELD1": 58,
+   "Country": "Dominican Republic ",
+   "Area": 48730
+ },
+ {
+   "FIELD1": 59,
+   "Country": "East Timor ",
+   "Area": 15007
+ },
+ {
+   "FIELD1": 60,
+   "Country": "Ecuador ",
+   "Area": 283560
+ },
+ {
+   "FIELD1": 61,
+   "Country": "Egypt ",
+   "Area": 1001450
+ },
+ {
+   "FIELD1": 62,
+   "Country": "El Salvador ",
+   "Area": 21040
+ },
+ {
+   "FIELD1": 63,
+   "Country": "Equatorial Guinea ",
+   "Area": 28051
+ },
+ {
+   "FIELD1": 64,
+   "Country": "Eritrea ",
+   "Area": 121320
+ },
+ {
+   "FIELD1": 65,
+   "Country": "Estonia ",
+   "Area": 45226
+ },
+ {
+   "FIELD1": 66,
+   "Country": "Ethiopia ",
+   "Area": 1127127
+ },
+ {
+   "FIELD1": 67,
+   "Country": "Faroe Islands ",
+   "Area": 1399
+ },
+ {
+   "FIELD1": 68,
+   "Country": "Fiji ",
+   "Area": 18270
+ },
+ {
+   "FIELD1": 69,
+   "Country": "Finland ",
+   "Area": 338145
+ },
+ {
+   "FIELD1": 70,
+   "Country": "France ",
+   "Area": 547030
+ },
+ {
+   "FIELD1": 71,
+   "Country": "French Guiana ",
+   "Area": 91000
+ },
+ {
+   "FIELD1": 72,
+   "Country": "French Polynesia ",
+   "Area": 4167
+ },
+ {
+   "FIELD1": 73,
+   "Country": "Gabon ",
+   "Area": 267667
+ },
+ {
+   "FIELD1": 74,
+   "Country": "Gambia, The ",
+   "Area": 11300
+ },
+ {
+   "FIELD1": 75,
+   "Country": "Gaza Strip ",
+   "Area": 360
+ },
+ {
+   "FIELD1": 76,
+   "Country": "Georgia ",
+   "Area": 69700
+ },
+ {
+   "FIELD1": 77,
+   "Country": "Germany ",
+   "Area": 357021
+ },
+ {
+   "FIELD1": 78,
+   "Country": "Ghana ",
+   "Area": 239460
+ },
+ {
+   "FIELD1": 79,
+   "Country": "Gibraltar ",
+   "Area": 7
+ },
+ {
+   "FIELD1": 80,
+   "Country": "Greece ",
+   "Area": 131940
+ },
+ {
+   "FIELD1": 81,
+   "Country": "Greenland ",
+   "Area": 2166086
+ },
+ {
+   "FIELD1": 82,
+   "Country": "Grenada ",
+   "Area": 344
+ },
+ {
+   "FIELD1": 83,
+   "Country": "Guadeloupe ",
+   "Area": 1780
+ },
+ {
+   "FIELD1": 84,
+   "Country": "Guam ",
+   "Area": 541
+ },
+ {
+   "FIELD1": 85,
+   "Country": "Guatemala ",
+   "Area": 108890
+ },
+ {
+   "FIELD1": 86,
+   "Country": "Guernsey ",
+   "Area": 78
+ },
+ {
+   "FIELD1": 87,
+   "Country": "Guinea ",
+   "Area": 245857
+ },
+ {
+   "FIELD1": 88,
+   "Country": "Guinea-Bissau ",
+   "Area": 36120
+ },
+ {
+   "FIELD1": 89,
+   "Country": "Guyana ",
+   "Area": 214970
+ },
+ {
+   "FIELD1": 90,
+   "Country": "Haiti ",
+   "Area": 27750
+ },
+ {
+   "FIELD1": 91,
+   "Country": "Honduras ",
+   "Area": 112090
+ },
+ {
+   "FIELD1": 92,
+   "Country": "Hong Kong ",
+   "Area": 1092
+ },
+ {
+   "FIELD1": 93,
+   "Country": "Hungary ",
+   "Area": 93030
+ },
+ {
+   "FIELD1": 94,
+   "Country": "Iceland ",
+   "Area": 103000
+ },
+ {
+   "FIELD1": 95,
+   "Country": "India ",
+   "Area": 3287590
+ },
+ {
+   "FIELD1": 96,
+   "Country": "Indonesia ",
+   "Area": 1919440
+ },
+ {
+   "FIELD1": 97,
+   "Country": "Iran ",
+   "Area": 1648000
+ },
+ {
+   "FIELD1": 98,
+   "Country": "Iraq ",
+   "Area": 437072
+ },
+ {
+   "FIELD1": 99,
+   "Country": "Ireland ",
+   "Area": 70280
+ },
+ {
+   "FIELD1": 100,
+   "Country": "Isle of Man ",
+   "Area": 572
+ },
+ {
+   "FIELD1": 101,
+   "Country": "Israel ",
+   "Area": 20770
+ },
+ {
+   "FIELD1": 102,
+   "Country": "Italy ",
+   "Area": 301230
+ },
+ {
+   "FIELD1": 103,
+   "Country": "Jamaica ",
+   "Area": 10991
+ },
+ {
+   "FIELD1": 104,
+   "Country": "Japan ",
+   "Area": 377835
+ },
+ {
+   "FIELD1": 105,
+   "Country": "Jersey ",
+   "Area": 116
+ },
+ {
+   "FIELD1": 106,
+   "Country": "Jordan ",
+   "Area": 92300
+ },
+ {
+   "FIELD1": 107,
+   "Country": "Kazakhstan ",
+   "Area": 2717300
+ },
+ {
+   "FIELD1": 108,
+   "Country": "Kenya ",
+   "Area": 582650
+ },
+ {
+   "FIELD1": 109,
+   "Country": "Kiribati ",
+   "Area": 811
+ },
+ {
+   "FIELD1": 110,
+   "Country": "Korea, North ",
+   "Area": 120540
+ },
+ {
+   "FIELD1": 111,
+   "Country": "Korea, South ",
+   "Area": 98480
+ },
+ {
+   "FIELD1": 112,
+   "Country": "Kuwait ",
+   "Area": 17820
+ },
+ {
+   "FIELD1": 113,
+   "Country": "Kyrgyzstan ",
+   "Area": 198500
+ },
+ {
+   "FIELD1": 114,
+   "Country": "Laos ",
+   "Area": 236800
+ },
+ {
+   "FIELD1": 115,
+   "Country": "Latvia ",
+   "Area": 64589
+ },
+ {
+   "FIELD1": 116,
+   "Country": "Lebanon ",
+   "Area": 10400
+ },
+ {
+   "FIELD1": 117,
+   "Country": "Lesotho ",
+   "Area": 30355
+ },
+ {
+   "FIELD1": 118,
+   "Country": "Liberia ",
+   "Area": 111370
+ },
+ {
+   "FIELD1": 119,
+   "Country": "Libya ",
+   "Area": 1759540
+ },
+ {
+   "FIELD1": 120,
+   "Country": "Liechtenstein ",
+   "Area": 160
+ },
+ {
+   "FIELD1": 121,
+   "Country": "Lithuania ",
+   "Area": 65200
+ },
+ {
+   "FIELD1": 122,
+   "Country": "Luxembourg ",
+   "Area": 2586
+ },
+ {
+   "FIELD1": 123,
+   "Country": "Macau ",
+   "Area": 28
+ },
+ {
+   "FIELD1": 124,
+   "Country": "Macedonia ",
+   "Area": 25333
+ },
+ {
+   "FIELD1": 125,
+   "Country": "Madagascar ",
+   "Area": 587040
+ },
+ {
+   "FIELD1": 126,
+   "Country": "Malawi ",
+   "Area": 118480
+ },
+ {
+   "FIELD1": 127,
+   "Country": "Malaysia ",
+   "Area": 329750
+ },
+ {
+   "FIELD1": 128,
+   "Country": "Maldives ",
+   "Area": 300
+ },
+ {
+   "FIELD1": 129,
+   "Country": "Mali ",
+   "Area": 1240000
+ },
+ {
+   "FIELD1": 130,
+   "Country": "Malta ",
+   "Area": 316
+ },
+ {
+   "FIELD1": 131,
+   "Country": "Marshall Islands ",
+   "Area": 11854
+ },
+ {
+   "FIELD1": 132,
+   "Country": "Martinique ",
+   "Area": 1100
+ },
+ {
+   "FIELD1": 133,
+   "Country": "Mauritania ",
+   "Area": 1030700
+ },
+ {
+   "FIELD1": 134,
+   "Country": "Mauritius ",
+   "Area": 2040
+ },
+ {
+   "FIELD1": 135,
+   "Country": "Mayotte ",
+   "Area": 374
+ },
+ {
+   "FIELD1": 136,
+   "Country": "Mexico ",
+   "Area": 1972550
+ },
+ {
+   "FIELD1": 137,
+   "Country": "Micronesia, Fed. St. ",
+   "Area": 702
+ },
+ {
+   "FIELD1": 138,
+   "Country": "Moldova ",
+   "Area": 33843
+ },
+ {
+   "FIELD1": 139,
+   "Country": "Monaco ",
+   "Area": 2
+ },
+ {
+   "FIELD1": 140,
+   "Country": "Mongolia ",
+   "Area": 1564116
+ },
+ {
+   "FIELD1": 141,
+   "Country": "Montserrat ",
+   "Area": 102
+ },
+ {
+   "FIELD1": 142,
+   "Country": "Morocco ",
+   "Area": 446550
+ },
+ {
+   "FIELD1": 143,
+   "Country": "Mozambique ",
+   "Area": 801590
+ },
+ {
+   "FIELD1": 144,
+   "Country": "Namibia ",
+   "Area": 825418
+ },
+ {
+   "FIELD1": 145,
+   "Country": "Nauru ",
+   "Area": 21
+ },
+ {
+   "FIELD1": 146,
+   "Country": "Nepal ",
+   "Area": 147181
+ },
+ {
+   "FIELD1": 147,
+   "Country": "Netherlands ",
+   "Area": 41526
+ },
+ {
+   "FIELD1": 148,
+   "Country": "Netherlands Antilles ",
+   "Area": 960
+ },
+ {
+   "FIELD1": 149,
+   "Country": "New Caledonia ",
+   "Area": 19060
+ },
+ {
+   "FIELD1": 150,
+   "Country": "New Zealand ",
+   "Area": 268680
+ },
+ {
+   "FIELD1": 151,
+   "Country": "Nicaragua ",
+   "Area": 129494
+ },
+ {
+   "FIELD1": 152,
+   "Country": "Niger ",
+   "Area": 1267000
+ },
+ {
+   "FIELD1": 153,
+   "Country": "Nigeria ",
+   "Area": 923768
+ },
+ {
+   "FIELD1": 154,
+   "Country": "N. Mariana Islands ",
+   "Area": 477
+ },
+ {
+   "FIELD1": 155,
+   "Country": "Norway ",
+   "Area": 323802
+ },
+ {
+   "FIELD1": 156,
+   "Country": "Oman ",
+   "Area": 212460
+ },
+ {
+   "FIELD1": 157,
+   "Country": "Pakistan ",
+   "Area": 803940
+ },
+ {
+   "FIELD1": 158,
+   "Country": "Palau ",
+   "Area": 458
+ },
+ {
+   "FIELD1": 159,
+   "Country": "Panama ",
+   "Area": 78200
+ },
+ {
+   "FIELD1": 160,
+   "Country": "Papua New Guinea ",
+   "Area": 462840
+ },
+ {
+   "FIELD1": 161,
+   "Country": "Paraguay ",
+   "Area": 406750
+ },
+ {
+   "FIELD1": 162,
+   "Country": "Peru ",
+   "Area": 1285220
+ },
+ {
+   "FIELD1": 163,
+   "Country": "Philippines ",
+   "Area": 300000
+ },
+ {
+   "FIELD1": 164,
+   "Country": "Poland ",
+   "Area": 312685
+ },
+ {
+   "FIELD1": 165,
+   "Country": "Portugal ",
+   "Area": 92391
+ },
+ {
+   "FIELD1": 166,
+   "Country": "Puerto Rico ",
+   "Area": 13790
+ },
+ {
+   "FIELD1": 167,
+   "Country": "Qatar ",
+   "Area": 11437
+ },
+ {
+   "FIELD1": 168,
+   "Country": "Reunion ",
+   "Area": 2517
+ },
+ {
+   "FIELD1": 169,
+   "Country": "Romania ",
+   "Area": 237500
+ },
+ {
+   "FIELD1": 170,
+   "Country": "Russia ",
+   "Area": 17075200
+ },
+ {
+   "FIELD1": 171,
+   "Country": "Rwanda ",
+   "Area": 26338
+ },
+ {
+   "FIELD1": 172,
+   "Country": "Saint Helena ",
+   "Area": 413
+ },
+ {
+   "FIELD1": 173,
+   "Country": "Saint Kitts & Nevis ",
+   "Area": 261
+ },
+ {
+   "FIELD1": 174,
+   "Country": "Saint Lucia ",
+   "Area": 616
+ },
+ {
+   "FIELD1": 175,
+   "Country": "St Pierre & Miquelon ",
+   "Area": 242
+ },
+ {
+   "FIELD1": 176,
+   "Country": "Saint Vincent and the Grenadines ",
+   "Area": 389
+ },
+ {
+   "FIELD1": 177,
+   "Country": "Samoa ",
+   "Area": 2944
+ },
+ {
+   "FIELD1": 178,
+   "Country": "San Marino ",
+   "Area": 61
+ },
+ {
+   "FIELD1": 179,
+   "Country": "Sao Tome & Principe ",
+   "Area": 1001
+ },
+ {
+   "FIELD1": 180,
+   "Country": "Saudi Arabia ",
+   "Area": 1960582
+ },
+ {
+   "FIELD1": 181,
+   "Country": "Senegal ",
+   "Area": 196190
+ },
+ {
+   "FIELD1": 182,
+   "Country": "Serbia ",
+   "Area": 88361
+ },
+ {
+   "FIELD1": 183,
+   "Country": "Seychelles ",
+   "Area": 455
+ },
+ {
+   "FIELD1": 184,
+   "Country": "Sierra Leone ",
+   "Area": 71740
+ },
+ {
+   "FIELD1": 185,
+   "Country": "Singapore ",
+   "Area": 693
+ },
+ {
+   "FIELD1": 186,
+   "Country": "Slovakia ",
+   "Area": 48845
+ },
+ {
+   "FIELD1": 187,
+   "Country": "Slovenia ",
+   "Area": 20273
+ },
+ {
+   "FIELD1": 188,
+   "Country": "Solomon Islands ",
+   "Area": 28450
+ },
+ {
+   "FIELD1": 189,
+   "Country": "Somalia ",
+   "Area": 637657
+ },
+ {
+   "FIELD1": 190,
+   "Country": "South Africa ",
+   "Area": 1219912
+ },
+ {
+   "FIELD1": 191,
+   "Country": "Spain ",
+   "Area": 504782
+ },
+ {
+   "FIELD1": 192,
+   "Country": "Sri Lanka ",
+   "Area": 65610
+ },
+ {
+   "FIELD1": 193,
+   "Country": "Sudan ",
+   "Area": 2505810
+ },
+ {
+   "FIELD1": 194,
+   "Country": "Suriname ",
+   "Area": 163270
+ },
+ {
+   "FIELD1": 195,
+   "Country": "Swaziland ",
+   "Area": 17363
+ },
+ {
+   "FIELD1": 196,
+   "Country": "Sweden ",
+   "Area": 449964
+ },
+ {
+   "FIELD1": 197,
+   "Country": "Switzerland ",
+   "Area": 41290
+ },
+ {
+   "FIELD1": 198,
+   "Country": "Syria ",
+   "Area": 185180
+ },
+ {
+   "FIELD1": 199,
+   "Country": "Taiwan ",
+   "Area": 35980
+ },
+ {
+   "FIELD1": 200,
+   "Country": "Tajikistan ",
+   "Area": 143100
+ },
+ {
+   "FIELD1": 201,
+   "Country": "Tanzania ",
+   "Area": 945087
+ },
+ {
+   "FIELD1": 202,
+   "Country": "Thailand ",
+   "Area": 514000
+ },
+ {
+   "FIELD1": 203,
+   "Country": "Togo ",
+   "Area": 56785
+ },
+ {
+   "FIELD1": 204,
+   "Country": "Tonga ",
+   "Area": 748
+ },
+ {
+   "FIELD1": 205,
+   "Country": "Trinidad & Tobago ",
+   "Area": 5128
+ },
+ {
+   "FIELD1": 206,
+   "Country": "Tunisia ",
+   "Area": 163610
+ },
+ {
+   "FIELD1": 207,
+   "Country": "Turkey ",
+   "Area": 780580
+ },
+ {
+   "FIELD1": 208,
+   "Country": "Turkmenistan ",
+   "Area": 488100
+ },
+ {
+   "FIELD1": 209,
+   "Country": "Turks & Caicos Is ",
+   "Area": 430
+ },
+ {
+   "FIELD1": 210,
+   "Country": "Tuvalu ",
+   "Area": 26
+ },
+ {
+   "FIELD1": 211,
+   "Country": "Uganda ",
+   "Area": 236040
+ },
+ {
+   "FIELD1": 212,
+   "Country": "Ukraine ",
+   "Area": 603700
+ },
+ {
+   "FIELD1": 213,
+   "Country": "United Arab Emirates ",
+   "Area": 82880
+ },
+ {
+   "FIELD1": 214,
+   "Country": "United Kingdom ",
+   "Area": 244820
+ },
+ {
+   "FIELD1": 215,
+   "Country": "United States ",
+   "Area": 9631420
+ },
+ {
+   "FIELD1": 216,
+   "Country": "Uruguay ",
+   "Area": 176220
+ },
+ {
+   "FIELD1": 217,
+   "Country": "Uzbekistan ",
+   "Area": 447400
+ },
+ {
+   "FIELD1": 218,
+   "Country": "Vanuatu ",
+   "Area": 12200
+ },
+ {
+   "FIELD1": 219,
+   "Country": "Venezuela ",
+   "Area": 912050
+ },
+ {
+   "FIELD1": 220,
+   "Country": "Vietnam ",
+   "Area": 329560
+ },
+ {
+   "FIELD1": 221,
+   "Country": "Virgin Islands ",
+   "Area": 1910
+ },
+ {
+   "FIELD1": 222,
+   "Country": "Wallis and Futuna ",
+   "Area": 274
+ },
+ {
+   "FIELD1": 223,
+   "Country": "West Bank ",
+   "Area": 5860
+ },
+ {
+   "FIELD1": 224,
+   "Country": "Western Sahara ",
+   "Area": 266000
+ },
+ {
+   "FIELD1": 225,
+   "Country": "Yemen ",
+   "Area": 527970
+ },
+ {
+   "FIELD1": 226,
+   "Country": "Zambia ",
+   "Area": 752614
+ },
+ {
+   "FIELD1": 227,
+   "Country": "Zimbabwe ",
+   "Area": 390580
+ }
+]

@@ -1,0 +1,9 @@
+.map-container {
+    display: flex;
+    position: relative;
+    margin: 25px;
+    background-color: #191A1A;
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+  }
