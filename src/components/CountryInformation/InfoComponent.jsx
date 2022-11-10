@@ -13,7 +13,7 @@ function InfoComponent (props) {
   const [percentageCompareYear, setPercentageCompareYear] = useState()
   const [percentageCompareToday, setPercentageCompareToday] = useState()
   const [tonneAmount, setTonneAmount] = useState()
-  //const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
 
   /*Fetches the data when the selected Country changed*/
   useEffect(() => {
@@ -164,19 +164,19 @@ function InfoComponent (props) {
       <div className='card-container'>
         <Card
           icon={<BsFillBarChartFill />}
-          isLoading={props.isLoading}
+          isLoading={isLoading}
           percentage={percentageCompareYear + '%'}
           text={"of last year's emissions"}
         ></Card>
         <Card
           icon={<Arrow angleArrow={100 - percentageCompareToday} />}
-          isLoading={props.isLoading}
+          isLoading={isLoading}
           percentage={percentageCompareToday + '%'}
           text={'compared to this date last year'}
         ></Card>
         <Card
           icon={<FaWeightHanging />}
-          isLoading={props.isLoading}
+          isLoading={isLoading}
           percentage={tonneAmount}
           text={'million tonnes CO2 emitted so far this year'}
         ></Card>

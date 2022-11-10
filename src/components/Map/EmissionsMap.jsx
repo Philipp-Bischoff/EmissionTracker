@@ -34,9 +34,10 @@ function EmissionMap ({ geoData, lati, long }) {
         }}
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
-        mapboxAccessToken={
+        /*mapboxAccessToken={
           'pk.eyJ1IjoidmluY2VudHZlZ2E5NSIsImEiOiJjbDd2enI4OGQwODB0M3d1YnhnZXB1ZjUzIn0.UX-Z9XdNuo0RRSOxfwjZlA'
-        }
+        }*/
+        mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
         layers={[
           new HexagonLayer({
             extruded: true,

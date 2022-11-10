@@ -1,6 +1,6 @@
 import React from 'react'
 import VerticalBar from './VerticalBar'
-import SateliteGif from '../assets/Spinner_white.gif'
+import SateliteGif from '../../assets/Spinner_white.gif'
 
 function GraphComponent (props) {
   return (

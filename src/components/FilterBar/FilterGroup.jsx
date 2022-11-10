@@ -53,10 +53,6 @@ function FilterGroup (props) {
 
   const [active, setActive] = useState(types[2].text)
 
-  useEffect(() => {
-    console.log(active)
-  })
-
   return (
     <div className='filter-div'>
       <TimeButtonGroup>

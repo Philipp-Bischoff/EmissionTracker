@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
-import Menu from './Sidebar/Menu.jsx'
-import Interface from './Interface/Interface.jsx'
+import Menu from './components/Sidebar/Menu.jsx'
+import Interface from './components/Interface/Interface.jsx'
 import { EmissionOptions } from './assets/EmissionOptions.jsx'
 
 function App () {

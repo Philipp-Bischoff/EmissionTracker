@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
-import Satelite from './satelite.png'
 import styled from 'styled-components'
 import './Menu.css'
-import Logo from './logo.png'
+import Logo from '../../assets/logo.png'
 
 const MenuButton = styled.button`
   height: 50px;

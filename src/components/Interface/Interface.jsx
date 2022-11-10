@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import countryCodes from '../assets/country-codes.json'
-import SateliteGif from '../assets/Spinner.gif'
+import countryCodes from '../../assets/country-codes.json'
+import SateliteGif from '../../assets/Spinner.gif'
 import InfoComponent from '../CountryInformation/InfoComponent'
 import MapComponent from '../Map/MapComponent'
 import GraphComponent from '../Graph/GraphComponent'
@@ -175,7 +175,6 @@ function Interface (props) {
             maxTick={maxTick}
           ></GraphComponent>
           <InfoComponent
-            isLoading={props.isLoading}
             selectedEmission={props.selectedEmission}
             countryInformation={countryInformation}
             selectedCountry={props.selectedCountry}
