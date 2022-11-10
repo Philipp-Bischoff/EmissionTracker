@@ -1,18 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import React from 'react'
 import Menu from './Sidebar/Menu.jsx'
 import Interface from './Interface/Interface.jsx'
-import { EmissionOptions } from './EmissionOptions.jsx'
+import { EmissionOptions } from './assets/EmissionOptions.jsx'
 
 function App () {
-  /*This should keep the state of country and emission type*/
   const [selectedCountry, setSelectedCountry] = useState('DE')
   const [selectedEmission, setSelectedEmission] = useState(EmissionOptions[0])
+  const [isLoading, setIsLoading] = useState(true)
 
   return (
     <>
       <div className='main'>
         <Menu
+          isLoading={isLoading}
           setSelectedCountry={setSelectedCountry}
           selectedCountry={selectedCountry}
           selectedEmission={selectedEmission}
@@ -20,6 +21,8 @@ function App () {
           EmissionOptions={EmissionOptions}
         />
         <Interface
+          isLoading={isLoading}
+          setIsLoading={setIsLoading}
           selectedCountry={selectedCountry}
           selectedEmission={selectedEmission}
         />

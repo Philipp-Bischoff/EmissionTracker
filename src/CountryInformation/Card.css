@@ -25,3 +25,11 @@
   .info-card-text{
     color:black;
   }
+
+.placeholder-div{
+  background-color: grey;
+  margin: 20px 0px;
+  height: 40px;
+  border-radius: 10px;
+  opacity: 0.2;
+}

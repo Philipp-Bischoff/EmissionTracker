@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Satelite from './satelite.png'
 import styled from 'styled-components'
 import './Menu.css'
+import Logo from './logo.png'
 
 const MenuButton = styled.button`
   height: 50px;
@@ -72,8 +73,7 @@ function Menu (props) {
           transition={{ duration: 0.5 }}
         >
           <div className='top-section'>
-            <img className='logo' src={Satelite}></img>
-            <h1 className='logo'></h1>
+            <img className='logo' src={Logo}></img>
           </div>
           <div className='search'>
             <div className='search_icon'>
@@ -98,7 +98,7 @@ function Menu (props) {
             {props.EmissionOptions.map(button => {
               return (
                 <div className='item'>
-                  {
+                  {!props.isLoading ? (
                     <MenuButtonGroup>
                       <MenuButtonToggle
                         key={button.name}
@@ -116,7 +116,9 @@ function Menu (props) {
                         {button.name}
                       </MenuButtonToggle>
                     </MenuButtonGroup>
-                  }
+                  ) : (
+                    <div className='placeholder-div'></div>
+                  )}
                 </div>
               )
             })}

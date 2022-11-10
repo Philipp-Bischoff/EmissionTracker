@@ -13,10 +13,12 @@ function InfoComponent (props) {
   const [percentageCompareYear, setPercentageCompareYear] = useState()
   const [percentageCompareToday, setPercentageCompareToday] = useState()
   const [tonneAmount, setTonneAmount] = useState()
+  //const [isLoading, setIsLoading] = useState(false)
 
   /*Fetches the data when the selected Country changed*/
   useEffect(() => {
     fetchDifference()
+    setIsLoading(true)
   }, [props.selectedCountry])
 
   /*Calculates the difference once the data is 
@@ -46,10 +48,6 @@ function InfoComponent (props) {
     const today = new Date()
     const thisYear = new Date().getFullYear()
     const lastYear = today.getFullYear() - 1
-    const day = today.getDate()
-    const month = today.getMonth() + 1
-
-    console.log('today :' + thisYear + ' ' + month + ' ' + day)
 
     /*Fetch all of last year*/
     fetch(
@@ -141,12 +139,13 @@ function InfoComponent (props) {
       ((storeAveragePresent / storeAveragePastUntilToday) * 100).toFixed(2)
     )
     calulcateMolToTonne(storeAveragePresent, props.countryInformation.name)
+    setIsLoading(false)
   }
 
   /*This function finds the selected countries size in sq km and multiplies the area
   by the emitted co2/sqm2, returns the amount in tonnes*/
   const calulcateMolToTonne = (amountMol, selectedCountry) => {
-    CountrySizes.filter(country => {
+    CountrySizes.map(country => {
       if (country.Country.trimEnd() === selectedCountry) {
         const amountEmitted = Math.trunc(
           (amountMol * 44.0095 * country.Area) / 1000000
@@ -165,16 +164,19 @@ function InfoComponent (props) {
       <div className='card-container'>
         <Card
           icon={<BsFillBarChartFill />}
+          isLoading={props.isLoading}
           percentage={percentageCompareYear + '%'}
           text={"of last year's emissions"}
         ></Card>
         <Card
           icon={<Arrow angleArrow={100 - percentageCompareToday} />}
+          isLoading={props.isLoading}
           percentage={percentageCompareToday + '%'}
           text={'compared to this date last year'}
         ></Card>
         <Card
           icon={<FaWeightHanging />}
+          isLoading={props.isLoading}
           percentage={tonneAmount}
           text={'million tonnes CO2 emitted so far this year'}
         ></Card>

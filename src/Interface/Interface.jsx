@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import countryCodes from './country-codes.json'
-import SateliteGif from './Spinner.gif'
+import countryCodes from '../assets/country-codes.json'
+import SateliteGif from '../assets/Spinner.gif'
 import InfoComponent from '../CountryInformation/InfoComponent'
 import MapComponent from '../Map/MapComponent'
 import GraphComponent from '../Graph/GraphComponent'
@@ -47,14 +47,14 @@ function Interface (props) {
   const [geoData, setGeoData] = useState()
   const [countryInformation, setCountryInformation] = useState({})
 
-  useEffect(() => {
+  /*useEffect(() => {
     console.log('Begin' + begin)
     console.log('End' + end)
   }, [])
 
   useEffect(() => {
     console.log('emission+' + props.selectedEmission.name)
-  })
+  })*/
 
   /*fetches the country coordinates (for the map), the average emission data 
   and GeoJSON emission data when either the country, the emission, or the time frame is changed*/
@@ -86,6 +86,8 @@ function Interface (props) {
   }
 
   const fetchEmissionData = (emission, country, begin, end) => {
+    props.setIsLoading(true)
+
     const requestURL =
       'https://api.v2.emissions-api.org/api/v2/' +
       String(emission).toLowerCase() +
@@ -104,9 +106,11 @@ function Interface (props) {
         setValues(values_list)
         let labels_list = data.map(x => ({
           day: x.start.substring(8, 10),
-          month: integerIntoMonth(x.start.substring(5, 7))
+          //month: integerIntoMonth(x.start.substring(5, 7)),
+          month: months[x.start.substring(5, 7) - 1]
         }))
         setLabels(labels_list)
+        props.setIsLoading(false)
       })
   }
 
@@ -134,7 +138,7 @@ function Interface (props) {
   const calculatedateFrame = dateFrame => {
     const current = new Date()
     /*Go back 12 months*/
-    if (dateFrame == 12) {
+    if (dateFrame === 12) {
       current.setFullYear(current.getFullYear() - 1)
       const previousDate = current.toISOString().slice(0, 10)
       setBegin(previousDate)
@@ -157,17 +161,21 @@ function Interface (props) {
           />
           <MapComponent geoData={geoData} lat={lat} lon={lon} />
           <GraphComponent
+            isLoading={props.isLoading}
             setBegin={setBegin}
             setEnd={setEnd}
             values={values}
             labels={
-              timeFrame == 1 ? labels.map(a => a.day) : labels.map(a => a.month)
+              timeFrame === 1
+                ? labels.map(a => a.day)
+                : labels.map(a => a.month)
             }
             country={props.selectedCountry}
             description={props.selectedEmission.description}
             maxTick={maxTick}
           ></GraphComponent>
           <InfoComponent
+            isLoading={props.isLoading}
             selectedEmission={props.selectedEmission}
             countryInformation={countryInformation}
             selectedCountry={props.selectedCountry}
