@@ -1,11 +1,12 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import countryCodes from '../../assets/country-codes.json'
+import countryCodes from '../../assets/countryCodes.json'
 import SateliteGif from '../../assets/Spinner.gif'
 import InfoComponent from '../CountryInformation/InfoComponent'
 import MapComponent from '../Map/MapComponent'
 import GraphComponent from '../Graph/GraphComponent'
 import FilterGroup from '../FilterBar/FilterGroup'
+import { months } from '../../assets/Months.jsx'
 import './Interface.css'
 
 /*Get todays date or go back n months in API format (DD-MM-YY)*/
@@ -16,26 +17,8 @@ const CalenderToAPI = (date, n) => {
   return year + '-' + ('0' + month).slice(-2) + '-' + ('0' + day).slice(-2)
 }
 
-const months = [
-  'Jan',
-  'Feb',
-  'Mar',
-  'Apr',
-  'May',
-  'Jun',
-  'Jul',
-  'Aug',
-  'Sep',
-  'Oct',
-  'Nov',
-  'Dec'
-]
-
-const integerIntoMonth = i => {
-  return months[i - 1]
-}
-
 function Interface (props) {
+  /*Could have put all these in one object essentially, welp next time*/
   const [timeFrame, setTimeFrame] = useState(1)
   const [maxTick, setMaxTick] = useState(32)
   const [values, setValues] = useState([])
@@ -46,15 +29,6 @@ function Interface (props) {
   const [end, setEnd] = useState(CalenderToAPI(new Date(), 0))
   const [geoData, setGeoData] = useState()
   const [countryInformation, setCountryInformation] = useState({})
-
-  /*useEffect(() => {
-    console.log('Begin' + begin)
-    console.log('End' + end)
-  }, [])
-
-  useEffect(() => {
-    console.log('emission+' + props.selectedEmission.name)
-  })*/
 
   /*fetches the country coordinates (for the map), the average emission data 
   and GeoJSON emission data when either the country, the emission, or the time frame is changed*/
@@ -106,7 +80,6 @@ function Interface (props) {
         setValues(values_list)
         let labels_list = data.map(x => ({
           day: x.start.substring(8, 10),
-          //month: integerIntoMonth(x.start.substring(5, 7)),
           month: months[x.start.substring(5, 7) - 1]
         }))
         setLabels(labels_list)

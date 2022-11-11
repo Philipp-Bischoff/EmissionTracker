@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Card from './Card'
-import CountrySizes from './countrySizes.json'
+import CountrySizes from '../../assets/countrySizes.json'
 import Arrow from './Arrow.jsx'
 import { FaWeightHanging } from 'react-icons/fa'
 import { BsFillBarChartFill } from 'react-icons/bs'
@@ -22,7 +22,7 @@ function InfoComponent (props) {
   }, [props.selectedCountry])
 
   /*Calculates the difference once the data is 
-  retrieved (I'm aware this is an awful way to do it)*/
+  retrieved */
   useEffect(() => {
     if (
       dataLastYear &&

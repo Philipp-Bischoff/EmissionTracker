@@ -14,8 +14,8 @@ function App () {
       <div className='main'>
         <Menu
           isLoading={isLoading}
-          setSelectedCountry={setSelectedCountry}
           selectedCountry={selectedCountry}
+          setSelectedCountry={setSelectedCountry}
           selectedEmission={selectedEmission}
           setSelectedEmission={setSelectedEmission}
           EmissionOptions={EmissionOptions}

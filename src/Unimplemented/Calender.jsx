@@ -19,7 +19,7 @@ function Calender ({ changeStartDate, changeEndDate }) {
   }
 
   /*Runs on mount and fetches valid dates*/
-  useEffect(() => {
+  /* useEffect(() => {
     fetch(
       'https://api.v2.emissions-api.org/api/v2/carbonmonoxide/data-range.json'
     )
@@ -36,7 +36,7 @@ function Calender ({ changeStartDate, changeEndDate }) {
   useEffect(() => {
     let newEnd = CalenderToAPI(endDate)
     changeEndDate(newEnd)
-  }, [endDate])
+  }, [endDate])*/
 
   return (
     <div className='datepicker'>

@@ -34,10 +34,6 @@ function EmissionMap ({ geoData, lati, long }) {
         }}
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
-        /*mapboxAccessToken={
-          'pk.eyJ1IjoidmluY2VudHZlZ2E5NSIsImEiOiJjbDd2enI4OGQwODB0M3d1YnhnZXB1ZjUzIn0.UX-Z9XdNuo0RRSOxfwjZlA'
-        }*/
-        mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
         layers={[
           new HexagonLayer({
             extruded: true,
@@ -57,9 +53,7 @@ function EmissionMap ({ geoData, lati, long }) {
       >
         {
           <ReactMapGL
-            mapboxAccessToken={
-              'pk.eyJ1IjoidmluY2VudHZlZ2E5NSIsImEiOiJjbDd2enI4OGQwODB0M3d1YnhnZXB1ZjUzIn0.UX-Z9XdNuo0RRSOxfwjZlA'
-            }
+            mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
             mapStyle='mapbox://styles/mapbox/dark-v9'
             onViewportChange={viewport => {
               setINITIAL_VIEW_STATE(viewport)
