@@ -27,6 +27,7 @@ My Name is Philipp Bischoff and I'm a recent university graduate currently looki
  I'm hoping to find a place to which I can contribute to with my skills and an environment that allows me to learn and grow. What I personally enjoy about software engineering in general is the endless opportunities to learn and improve your own capabilities.
 
 Feel free to contact me on my <a href="www.linkedin.com/in/philipp-bischoff" title="linkedin">LinkedIn</a>!
+<a href="www.linkedin.com/in/philipp-bischoff" title="emission-link">Emission API</a>
 
 # Possible Improvements
 
