@@ -7,7 +7,7 @@ This project aims to provide a visualization tool for four different emission ty
 - Nitrogendioxide
 - Ozone
 
-The data stems from the [Emission API](https://emissions-api.org/) which takes satelite data from the Sentinel-5P-Satelite and translates it into more usable JSON data. 
+The data stems from the [Emission API](www.linkedin.com/in/philipp-bischoff) which takes satelite data from the Sentinel-5P-Satelite and translates it into more usable JSON data. 
 
 >The method used to estimate the concentrations of the chemical compounds is spectrophotometry. You can think of this as a camera with more than just your usual RGB-values, also extending into wavelengths not visible to the human eye. So the spectrophotometer on the Sentinel-5P satellite takes pictures of the earth and each pixel corresponds to one measurement point (it does so actually not so much in the way of a conventional photo that is two dimensional, but rather one line at a time, [like a scanner](https://youtu.be/vQS7Ldc7Q_Q)). This raw data is the [Level-0 data product](https://sentinel.esa.int/web/sentinel/missions/sentinel-5p/data-products) provided by the ESA. The concentrations of chemical compounds can then be inferred from the absorption of light they cause in different wavelengths (https://directory.eoportal.org/web/eoportal/satellite-missions/c-missions/copernicus-sentinel-5p#sensors)). Luckily, the ESA also provides this derived information in form of their [Level-2 data products](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-5p/products-algorithms), which are the ones we are using as a basis for Emissions API.
 
