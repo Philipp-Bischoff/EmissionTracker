@@ -9,14 +9,14 @@ function Card (props) {
         {' '}
         <div style={{ width: '100%', padding: '50%' }}>{props.icon}</div>
       </div>
-      <div className='info-card-text'>
-        {!props.isLoading ? (
+      {!props.isLoading ? (
+        <div className='info-card-text'>
           <h2>{props.percentage}</h2>
-        ) : (
-          <div className='placeholder-div'></div>
-        )}
-        <p>{props.text}</p>
-      </div>
+          <p>{props.text}</p>
+        </div>
+      ) : (
+        <div className='placeholder-div'></div>
+      )}
     </div>
   )
 }

@@ -166,7 +166,7 @@ function InfoComponent (props) {
           icon={<BsFillBarChartFill />}
           isLoading={isLoading}
           percentage={percentageCompareYear + '%'}
-          text={"of last year's emissions"}
+          text={"of last year's C02 emissions"}
         ></Card>
         <Card
           icon={<Arrow angleArrow={100 - percentageCompareToday} />}
