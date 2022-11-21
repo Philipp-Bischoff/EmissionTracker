@@ -1,5 +1,7 @@
 # About this project
 
+Play around with [the project](https://esa-satelite-emissiontracker.netlify.app/)
+
 This project aims to provide a visualization tool for four different emission types.
 
 - Carbonmonxide
